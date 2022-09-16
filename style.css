@@ -1,0 +1,63 @@
+/*font setup*/
+@font-face {
+    font-family: "Dogica";
+    src: url("asset/font/dogica.ttf");
+  }
+
+*{
+    font-family: 'Dogica', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*all margin*/
+nav{
+    margin-bottom: 50px;
+}
+
+body{
+    margin-top: 150px;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-top: 50px;
+}
+
+p{
+    margin-bottom: 50px;
+}
+
+.image{
+    margin-bottom: 50px;
+}
+
+/*text left or right on size>767*/
+.pstart{
+    text-align: start;
+}
+
+.pend{
+    text-align: end;
+}
+
+.btn{
+    margin-bottom: 50px;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+/*text left or right must be center on size<767*/
+@media only screen and (max-width: 767px) {
+
+    .pstart, .pend{
+        text-align: center;
+    }
+}
