@@ -33,6 +33,10 @@ p{
     margin-bottom: 50px;
 }
 
+.card{
+    margin-bottom: 50px;
+}
+
 /*text left or right on size>767*/
 .pstart{
     text-align: start;
@@ -53,6 +57,7 @@ p{
 footer{
     margin-top: 50px;
 }
+
 
 /*text left or right must be center on size<767*/
 @media only screen and (max-width: 767px) {
